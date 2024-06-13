@@ -1187,6 +1187,9 @@ input.visually-hidden:checked ~ .checkbox-icon {
         align-items: flex-start;
         margin: 0;
     }
+    .menu-button {
+        display: none;
+        }
 }
 
 
@@ -1257,6 +1260,13 @@ input.visually-hidden:checked ~ .checkbox-icon {
     .footer-container {
         margin: 0 auto;
     }
+    .menu-button {
+        padding: 0;
+        line-height: 0;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        }
 }
 
 @media (min-resolution: 192dpi) {
