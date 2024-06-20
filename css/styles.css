@@ -1082,6 +1082,15 @@ input.visually-hidden:checked ~ .checkbox-icon {
     fill: #f4f4fd;
 }
 
+.colored-studio {
+    letter-spacing: 0.02em;
+color: #404bbf
+}
+.number-colored {
+    letter-spacing: 0.02em;
+color: #4d5ae5;
+}
+
 /* Mobile-menu-end */
 
 
