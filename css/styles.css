@@ -194,7 +194,8 @@ header .container {
 
 .first-section {
     background-color: #2e2f42;
-    padding: 72px 52px;
+    padding-top: 72px;
+    padding-bottom: 52px;
     background-size: cover;
     background-position: center;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-320-1x-min.jpg);
