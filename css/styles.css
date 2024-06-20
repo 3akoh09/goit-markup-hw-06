@@ -1177,11 +1177,15 @@ color: #4d5ae5;
 
 
     .footer-container {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
        width: 584px;
+       margin: 0 auto;
+    
     }
+    
 
     .subscribe-form {
         flex-direction: row;
@@ -1283,9 +1287,16 @@ color: #4d5ae5;
         
     }
 
-    .footer-logo-text, .social, .subscribe-container {
-        align-items: flex-start;
-        margin: 0 20px; /* Додаємо відступи між блоками за допомогою margin */
+    .footer-logo-text {
+        margin-right: 120px;
+    }
+    
+     .social {
+
+     }
+     .subscribe-container {
+        margin-left: auto;
+
     }
     .menu-button {
         padding: 0;
