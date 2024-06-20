@@ -254,7 +254,7 @@ header .container {
 .second-section-list {
     display: flex;
     flex-direction: column;
-    gap: 72px;
+    gap: 72px 24px;
     
 
 }
@@ -1007,6 +1007,10 @@ input.visually-hidden:checked ~ .checkbox-icon {
     border-radius: 50%;
     border: 1px solid #e7e9fc;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
 }
 
 .mobile-menu-list {
