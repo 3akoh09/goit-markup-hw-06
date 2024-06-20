@@ -567,7 +567,7 @@ header .container {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    gap: 72px;
+   
 
 }
 
@@ -1180,7 +1180,7 @@ color: #4d5ae5;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
-        margin-left: 108px;
+       width: 584px;
     }
 
     .subscribe-form {
@@ -1272,9 +1272,20 @@ color: #4d5ae5;
     }
 
     .footer-container {
-        margin: 0 auto;
+        width: 100%; /* Повертаємо ширину на 100% */
+        max-width: 1158px; /* Встановлюємо максимальну ширину */
+        margin: 0 auto; /* Центруємо контейнер по горизонталі */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         
         
+        
+    }
+
+    .footer-logo-text, .social, .subscribe-container {
+        align-items: flex-start;
+        margin: 0 20px; /* Додаємо відступи між блоками за допомогою margin */
     }
     .menu-button {
         padding: 0;
