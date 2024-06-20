@@ -262,8 +262,8 @@ header .container {
 
 .second-section-list-item {
     margin: 0 auto;
-    max-width: 288px;
-#    flex-basis: calc((100% - 72px) / 4);
+ #  max-width: 288px;
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .second-section-header {
